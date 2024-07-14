@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Projects = () => (
-  <section>
-    <h2>Projects & Certificates</h2>
+  <section className="bg-gradient-to-r from-black-500 to-white-500 p-8">
+    <h2 className='text-4xl font-bold mb-4'>Projects & Certificates</h2>
     <div>
-      <h3>Programming: Python</h3>
-      <a href="https://certificates.ccbp.in/intensive/programming-foundations?id=MDGHJSWNSM">Python Certificate</a>
+      <h3>Programming:<span><a href="https://certificates.ccbp.in/intensive/programming-foundations?id=MDGHJSWNSM"> Python Certificate</a></span></h3>
+
     </div>
     <div>
       <h3>Frontend: ReactJs / VueJs / JavaScript</h3>
