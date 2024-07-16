@@ -1,0 +1,21 @@
+.rolling-banner {
+    position: relative;
+    height: 200px; /* Adjust based on your container height */
+    overflow: hidden;
+  }
+  
+  .education-section {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: left 1s ease-in-out, opacity 1s ease-in-out;
+  }
+  
+  .education-section.active {
+    left: 0;
+    opacity: 1;
+  }
+  

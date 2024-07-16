@@ -1,10 +1,11 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Experience from './components/Experience';
-import Education from './components/Education';
+// import Education from './components/Education';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import './App.css'; // Remove this import if not using custom CSS
+// import Interests from './components/Interests';
 
 function App() {
   return (
@@ -14,7 +15,6 @@ function App() {
         <Home />
       </section>
       <section id="experience" className="flex flex-col md:flex-row justify-around text-black p-8">
-        <Education />
         <Experience />
       </section>
       <section id="projects" className="p-8">
