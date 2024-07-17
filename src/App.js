@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App font-mono bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen">
       <Navbar />
-      <section id="home" className="m-4 text-white p-8">
+      <section id="home" className="m-4 text-black p-8">
         <Home />
       </section>
       <section id="experience" className="flex flex-col md:flex-row justify-around text-white p-8">

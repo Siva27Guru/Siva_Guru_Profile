@@ -1,8 +1,10 @@
+/* General styles for the app */
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
 }
 
+/* Navbar styles */
 nav {
   background-color: #333;
   padding: 10px;
@@ -56,5 +58,62 @@ li {
 }
 
 .home-container {
+  /* Additional styling if needed */
+}
 
+/* Section styles */
+.section {
+  color: text-black;
+  background: linear-gradient(to right, #2d2d2d, #1a1a1a);
+  padding: 2rem;
+}
+
+.section-title {
+  font-family: 'serif';
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.grid-item {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+.certificate-title, .project-title {
+  font-family: 'serif';
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.grid-item-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.grid-item-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.grid-item-link:hover {
+  text-decoration: underline;
 }

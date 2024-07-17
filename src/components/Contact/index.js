@@ -2,9 +2,9 @@ import React from 'react';
 import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const Contact = () => (
-  <section className="bg-gradient-to-r from-black-500 to-white-500 p-8">
-    <h1 className='text-4xl font-bold mb-4 text-white'>Contact</h1>
-    <hr className="border-white mb-8"/>
+  <section className="bg-gradient-to-r from-black-500 to-gray-500 p-8">
+    <h1 className='font-serif text-4xl font-bold mb-4 text-white'>Contact</h1>
+    <hr className="border-black mb-8"/>
     <div className="p-6 bg-white rounded shadow hover:shadow-lg transition-shadow duration-300">
       <h1 className="text-2xl font-semibold">Siva Guru</h1>
       <p>Full Stack Developer, Chennai(TN), India</p>
