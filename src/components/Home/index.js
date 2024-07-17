@@ -1,10 +1,16 @@
 import React from 'react';
+import myImage from '../../images/my-image.png'; // Adjust the path relative to your component file
 
 const Home = () => (
   <div>
     <header className="flex flex-col md:flex-row justify-around text-center font-serif bg-gradient-to-r from-black to-white m-2 p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+      <div className='flex flex-col bg-gradient-to-b from-gray-900 to-gray-800 rounded'>
+      <div className='mt-8'>
+        <h1 className='text-white text-2xl'>Software Developer</h1></div>
       <div className='p-8'>
-        <img src="https://photutorial.com/wp-content/uploads/2023/04/Featured-image-AI-image-generators-by-Midjourney.png" alt="siva" className="rounded-full" />
+        <img src={myImage} alt="siva" className="rounded-full" />
+      </div>
+      <div><p className='text-white text-xl'>Siva Guru Thanikachalam</p></div>
       </div>
       <div className='text-blue m-8'>
         <h1 className="text-left text-2xl font-bold mb-4">Welcome Everyone..!!</h1>
