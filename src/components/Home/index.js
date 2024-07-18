@@ -5,8 +5,8 @@ const Home = () => (
   <div>
     <header className="flex flex-col md:flex-row justify-around text-center font-serif bg-gradient-to-r from-black to-white m-2 p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
       <div className='flex flex-col bg-gradient-to-b from-gray-900 to-gray-800 rounded'>
-      <div className='mt-8'>
-        <h1 className='text-white text-2xl'>Software Developer</h1></div>
+      {/* <div className='mt-8'>
+        <h1 className='text-white text-2xl'></h1></div> */}
       <div className='p-8'>
         <img src={myImage} alt="siva" className="rounded-full" />
       </div>
